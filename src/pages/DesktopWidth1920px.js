@@ -924,18 +924,20 @@ const DesktopWidth1920px = () => {
         <b className={styles.ourSolution1}> Our Solution</b>
         <div className={styles.frameParent43}>
           <button
-            className={activeTab === 1 ? "active" : ""}
+            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""}`}
             onClick={() => handleTabChange(1)}
           >
             For Business
           </button>
           <button
-            className={activeTab === 2 ? "active" : ""}
+            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""}`}
             onClick={() => handleTabChange(2)}
           >
             For Investors
           </button>
         </div>
+
+
         <div className={styles.ourSolutionInner}>
           {activeTab === 1 && (
             <div className={styles.workingCapitalSolutionsForParent}>
@@ -992,8 +994,7 @@ const DesktopWidth1920px = () => {
           <b className={styles.getEarlyAccess}>Want To Know More About Us?</b>
           <div className={styles.pleaseFillTheFormOurReprWrapper}>
             <div className={styles.pleaseFillThe}>
-              Please fill the form, our Representative will reach out to you
-              within 24 hours
+              Please fill the form, our Representative will reach out to you within 24 hours
             </div>
           </div>
         </div>
@@ -1001,16 +1002,16 @@ const DesktopWidth1920px = () => {
           <div className={styles.frameParent46}>
             <div className={styles.frameParent47}>
               <div className={styles.enterYourNameWrapper}>
-                <div className={styles.enterYourName}>Enter your name</div>
+                <input className={styles.enterYourNameInput} placeholder="Enter your name" />
               </div>
               <div className={styles.enterYourNameWrapper}>
-                <div className={styles.enterYourName}>Email address</div>
+                <input className={styles.enterYourNameInput} placeholder="Email address" />
               </div>
               <div className={styles.enterYourNameWrapper}>
-                <div className={styles.enterYourName}>Phone number</div>
+                <input className={styles.enterYourNameInput} placeholder="Phone number" />
               </div>
               <div className={styles.writeYourQueryWrapper}>
-                <div className={styles.enterYourName}>Write your query...</div>
+                <textarea className={styles.enterYourQueryInput} placeholder="Write your query..." />
               </div>
             </div>
             <div className={styles.button}>
@@ -1018,14 +1019,11 @@ const DesktopWidth1920px = () => {
             </div>
           </div>
           <div className={styles.salesRunTheBusinessWrapper}>
-            <img
-              className={styles.callCenterBro1}
-              alt=""
-              src="/call-centerbro-1.svg"
-            />
+            <img className={styles.callCenterBro1} alt="" src="/call-centerbro-1.svg" />
           </div>
         </div>
       </div>
+
       <div className={styles.divcontainerFluid}>
         <img
           className={styles.rolloverMoneyLogo}
@@ -1046,6 +1044,7 @@ const DesktopWidth1920px = () => {
               <div className={styles.itemInvoicing}>Contact Us</div>
               <div className={styles.itemInvoicing}>About</div>
             </div>
+
           </div>
           <div className={styles.servicesParent}>
             <div className={styles.services}>Legal</div>

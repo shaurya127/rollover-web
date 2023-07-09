@@ -62,8 +62,8 @@
   position: absolute;
   top: 54px;
   left: 930px;
-  width: 690px;
-  height: 460px;
+  width: 560px;
+  height: 400px;
   overflow: hidden;
 }
 .section1 {
@@ -88,7 +88,6 @@
   flex-shrink: 0;
 }
 .invoiceDiscounting {
- 
   position: relative;
   letter-spacing: -0.02em;
   font-weight: 500;
@@ -148,12 +147,11 @@
 .whatMakeUsSpecialParent {
   position: absolute;
   top: 740px;
- 
+
   background-color: var(--color-white);
   width: 1920px;
   height: 687px;
   overflow: hidden;
- 
 }
 .createInvoiceTo {
   position: absolute;
@@ -1453,7 +1451,6 @@
   width: 491px;
 }
 .revolutionizeYourBusinessUsParent {
-  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1529,15 +1526,12 @@
   letter-spacing: -0.02em;
 }
 .forBusinessWrapper {
- 
   background-color: var(--color-midnightblue-100);
   box-shadow: 1px 1px 12px rgba(18, 17, 57, 0.25);
   padding: var(--padding-xs) var(--padding-9xl);
 }
-.forBusinessWrapper,
-.forInvestorsWrapper,
+
 .frameParent43 {
- 
   border-radius: var(--br-81xl);
   display: flex;
   flex-direction: row;
@@ -1552,12 +1546,26 @@
 .frameParent43 {
   position: absolute;
   top: 169px;
-  left: calc(50% - 147.5px);
-  background-color: rgba(138, 207, 245, 0.2);
+  left: calc(38% - 147.5px);
+  /* background-color: rgba(138, 207, 245, 0.2); */
   padding: var(--padding-9xs);
   font-size: var(--font-size-base);
   color: var(--color-white);
 }
+.tab {
+  padding: 12px 28px;
+  color: rgb(0, 0, 0);
+  border-radius: 100px;
+  background: rgba(3, 150, 229, 0.2);
+  /* box-shadow: 1px 1px 12px 0px rgba(18, 17, 57, 0.25); */
+}
+
+.activeTab {
+  color: white;
+  background: #121139;
+  /* Add any additional styles for the active tab */
+}
+
 .rolloverMoneyDirectly,
 .workingCapitalSolutions {
   position: relative;
@@ -1655,8 +1663,8 @@
 .enterYourNameWrapper {
   align-self: stretch;
   border-radius: var(--br-5xs);
-  background-color: var(--color-whitesmoke-100);
-  border: 1px solid var(--color-darkslategray-300);
+  /* background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-darkslategray-300); */
   overflow: hidden;
   flex-direction: row;
   padding: var(--padding-5xl) var(--padding-21xl);
@@ -1669,10 +1677,11 @@
   justify-content: flex-start;
 }
 .writeYourQueryWrapper {
+
   align-self: stretch;
   border-radius: var(--br-5xs);
-  background-color: var(--color-whitesmoke-100);
-  border: 1px solid var(--color-darkslategray-300);
+  /* background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-darkslategray-300); */
   box-sizing: border-box;
   height: 160px;
   overflow: hidden;
@@ -1690,6 +1699,8 @@
   text-transform: uppercase;
 }
 .button {
+  margin-left: 28px;
+  width: 76%;
   align-self: stretch;
   border-radius: var(--br-5xs);
   background-color: var(--color-midnightblue-100);
@@ -1742,6 +1753,22 @@
   width: 1920px;
   height: 1072px;
 }
+.enterYourNameInput,
+.enterYourQueryInput {
+  border-radius: 8px;
+  border: 1px solid rgba(60, 60, 60, 0.2);
+  background: #f6fafb;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.enterYourQueryInput {
+  height: 100px;
+}
+
 .rolloverMoneyLogo {
   position: absolute;
   top: calc(50% - 128.5px);
@@ -1873,6 +1900,7 @@
 }
 .contactUsWrapper,
 .servicesGroup {
+  margin-right: 120px;
   display: flex;
   flex-direction: row;
   align-items: center;

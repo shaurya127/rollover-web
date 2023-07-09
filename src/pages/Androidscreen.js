@@ -1,5 +1,12 @@
+import React, { useState } from "react";
 import styles from "./AndroidLarge1.module.css";
 const AndroidLarge1 = () => {
+
+  const [activeTab, setActiveTab] = useState(1);
+
+  const handleTabChange = (tabNumber) => {
+    setActiveTab(tabNumber);
+  };
   return (
     <div className={styles.androidLarge1}>
       <div className={styles.frameParent}>
@@ -35,7 +42,7 @@ const AndroidLarge1 = () => {
         <div className={styles.whatMakeUsSpecialParent}>
           <b className={styles.getEarlyAccess}>What Make Us Special</b>
           <div className={styles.frameContainer}>
-            <div className={styles.frameDiv}>
+            {/* <div className={styles.frameDiv}>
               <img
                 className={styles.frameChild}
                 alt=""
@@ -50,7 +57,7 @@ const AndroidLarge1 = () => {
                   through our platform.
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className={styles.frameDiv}>
               <img
                 className={styles.frameChild}
@@ -931,63 +938,89 @@ const AndroidLarge1 = () => {
       <div className={styles.ourSolutionParent}>
         <b className={styles.ourSolution}>Our Solution</b>
         <div className={styles.frameParent43}>
-          <div className={styles.forBusinessWrapper}>
-            <div className={styles.invoiceDiscounting}>For Business</div>
-          </div>
-          <div className={styles.forInvestorsWrapper}>
-            <div className={styles.invoiceDiscounting}>For Investors</div>
-          </div>
+          <button
+            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""}`}
+            onClick={() => handleTabChange(1)}
+          >
+            For Business
+          </button>
+          <button
+            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""}`}
+            onClick={() => handleTabChange(2)}
+          >
+            For Investors
+          </button>
         </div>
         <div className={styles.frameWrapper7}>
-          <div className={styles.workingCapitalSolutionsForParent}>
-            <b
-              className={styles.workingCapitalSolutions}
-            >{`Working Capital Solutions For Micro Small & Medium Enterprises`}</b>
-            <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-              <div className={styles.rolloverMoneyDirectly}>
-                RollOver Money directly integrates your ERP system to enable
-                quick working capital loan applications through invoice
-                discounting in less than 10 minutes
+        {activeTab === 1 && (
+            <div className={styles.workingCapitalSolutionsForParent}>
+              <b
+                className={styles.workingCapitalSolutions}
+              >{`Working Capital Solutions For Micro Small & Medium Enterprises`}</b>
+              <div className={styles.rolloverMoneyDirectlyIntegrParent}>
+                <div className={styles.rolloverMoneyDirectly}>
+                  RollOver Money directly integrates your ERP system to enable
+                  quick working capital loan applications through invoice
+                  discounting in less than 10 minutes
+                </div>
+                <div className={styles.givingAccessTo}>
+                  Giving access to working capital within 24-48 hours
+                </div>
+
               </div>
-              <div className={styles.rolloverMoneyDirectly}>
-                Giving access to working capital within 24-48 hours
-              </div>
-              <div className={styles.learnMoreParent}>
-                <div className={styles.getEarlyAccess}>learn more</div>
-                <img
-                  className={styles.vuesaxlineararrowRightIcon}
-                  alt=""
-                  src="/vuesaxlineararrowright.svg"
-                />
-              </div>
+              <img
+                className={styles.treasureBro1Icon}
+                alt=""
+                src="/treasurebro-1.svg"
+              />
             </div>
-          </div>
+          )}
+          {activeTab === 2 && (
+            <div className={styles.workingCapitalSolutionsForParent}>
+              <b
+                className={styles.workingCapitalSolutions}
+              >{` Investors can earn as much as 15% extra on their invested
+              capital`}</b>
+              <div className={styles.rolloverMoneyDirectlyIntegrParent}>
+
+                <div className={styles.givingAccessTo}>
+                  RollOver Money directly integrates your ERP system to enable
+                  quick working capital loan applications through invoice
+                  discounting in less than 10 minutes Giving access to working
+                  capital within 24-48 hours
+                </div>
+
+              </div>
+              <img
+                className={styles.treasureBro1Icon}
+                alt=""
+                src="/Revenue-bro 1.svg"
+              />
+            </div>
+
+          )}
         </div>
-        <img
-          className={styles.treasureBro1Icon}
-          alt=""
-          src="/treasurebro-1.svg"
-        />
+       
       </div>
       <div className={styles.frameParent44}>
         <div className={styles.frameParent45}>
-          <div className={styles.frameParent46}>
-            <div className={styles.enterYourNameWrapper}>
-              <div className={styles.enterYourName}>Enter your name</div>
+        <div className={styles.frameParent471}>
+              <div className={styles.enterYourNameWrapper}>
+                <input className={styles.enterYourNameInput} placeholder="Enter your name" />
+              </div>
+              <div className={styles.enterYourNameWrapper}>
+                <input className={styles.enterYourNameInput} placeholder="Email address" />
+              </div>
+              <div className={styles.enterYourNameWrapper}>
+                <input className={styles.enterYourNameInput} placeholder="Phone number" />
+              </div>
+              <div className={styles.writeYourQueryWrapper}>
+                <textarea className={styles.enterYourQueryInput} placeholder="Write your query..." />
+              </div>
             </div>
-            <div className={styles.enterYourNameWrapper}>
-              <div className={styles.enterYourName}>Email address</div>
+            <div className={styles.button}>
+              <b className={styles.submit}>Submit</b>
             </div>
-            <div className={styles.enterYourNameWrapper}>
-              <div className={styles.enterYourName}>Phone number</div>
-            </div>
-            <div className={styles.writeYourQueryWrapper}>
-              <div className={styles.enterYourName}>Write your query...</div>
-            </div>
-          </div>
-          <div className={styles.button}>
-            <b className={styles.submit}>Submit</b>
-          </div>
         </div>
         <div className={styles.wantToKnowMoreAboutUsParent}>
           <b className={styles.wantToKnow}>Want To Know More About Us?</b>
