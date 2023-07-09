@@ -1177,10 +1177,11 @@
   color: var(--color-dimgray-100);
 }
 .lineGroup {
+  
   top: 98.1px;
   left: 39.46px;
   border-radius: 1.08px;
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
   box-shadow: 0 0.47393715381622314px 1.42px 0.47px rgba(0, 0, 0, 0.1);
   width: 82.94px;
   height: 40.76px;
@@ -1456,6 +1457,7 @@
   height: 0.79px;
 }
 .frameParent40 {
+  
   top: 131.94px;
   left: 270.33px;
   border-radius: 2.06px;
@@ -1466,6 +1468,7 @@
   font-size: 4.71px;
 }
 .salesDashboardFinalUiParent {
+  /* background-color: red; */
   position: absolute;
   top: 170px;
   left: calc(50% - 156px);
@@ -1499,6 +1502,7 @@
   letter-spacing: -0.28px;
 }
 .vuesaxlineararrowDownIcon {
+ 
   padding: 16px;
   position: relative;
   width: 16px;
@@ -1552,7 +1556,7 @@
 }
 .frameParent4 {
   position: absolute;
-  top: 1962px;
+  top: 1792px;
   left: calc(50% - 180px);
   background-color: var(--color-whitesmoke-100);
   width: 360px;
@@ -1805,6 +1809,11 @@
   font-weight: 500;
 }
 .itemInvoicing {
+  /* color: #878484; */
+  font-family: Satoshi;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
   position: relative;
   line-height: 30px;
 }
@@ -1821,6 +1830,21 @@
   align-items: flex-start;
 }
 .servicesParent {
+  /* margin-top: -70px; */
+  width: 156px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.servicesParent1 {
+  margin-top: -70px;
+  width: 156px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.servicesParent2{
+  margin-top: -70px;
   width: 156px;
   flex-direction: column;
   justify-content: flex-start;
@@ -1842,8 +1866,14 @@
   overflow: hidden;
 }
 .itemLink4 {
-  line-height: 14px;
+  margin-bottom: 10px;
+  /* padding: 10px; */
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 10px;
+  font-style: normal;
   font-weight: 500;
+  line-height: 14px;
   display: inline-block;
   width: 132px;
 }
@@ -1861,11 +1891,28 @@
   height: 16.7px;
 }
 .itemLink5 {
+  margin-bottom: 10px;
+  /* padding: 10px; */
+  margin-right: 0px;
   position: relative;
-  line-height: 30px;
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 10px;
+  font-style: normal;
   font-weight: 500;
+  line-height: 14px;
 }
 .linkLocationsvgParent {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.linkLocationsvgParentphone {
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1874,6 +1921,7 @@
 }
 .connectParent,
 .frameParent50 {
+  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1885,6 +1933,7 @@
   font-size: var(--font-size-sm);
 }
 .connectParent {
+  
   flex: 1;
   gap: var(--gap-base);
 }

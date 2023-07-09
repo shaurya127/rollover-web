@@ -1047,14 +1047,14 @@ const AndroidLarge1 = () => {
         />
         <div className={styles.frameParent47}>
           <div className={styles.frameParent48}>
-            <div className={styles.servicesParent}>
+            <div className={styles.servicesParent1}>
               <div className={styles.services}>Services</div>
               <div className={styles.itemInvoicingToolParent}>
                 <div className={styles.itemInvoicing}>Invoicing Tool</div>
                 <div className={styles.itemInvoicing}>Analytics Dashboard</div>
               </div>
             </div>
-            <div className={styles.servicesParent}>
+            <div className={styles.servicesParent2}>
               <div className={styles.services}>Company</div>
               <div className={styles.itemInvoicingToolParent}>
                 <div className={styles.itemInvoicing}>Contact Us</div>
@@ -1082,7 +1082,7 @@ const AndroidLarge1 = () => {
                     alt=""
                     src="/mailsvg.svg"
                   />
-                  <div className={styles.itemLink4}>hey@rollovermoney.in</div>
+                  <div className={styles.itemLink4} style={{marginTop:"10px"}}>hey@rollovermoney.in</div>
                 </div>
                 <div className={styles.linkLocationsvgParent}>
                   <img
@@ -1092,11 +1092,11 @@ const AndroidLarge1 = () => {
                   />
                   <div className={styles.itemLink5}> New Delhi</div>
                 </div>
-                <div className={styles.linkLocationsvgParent}>
-                  <img
-                    className={styles.vuesaxlineararrowDownIcon}
+                <div className={styles.linkLocationsvgParentphone}>
+                <img
+                    className={styles.linkLocationsvg}
                     alt=""
-                    src="/link--numbersvg.svg"
+                    src="/number.svg.svg"
                   />
                   <div className={styles.itemLink5}> +919650830027</div>
                 </div>
@@ -1134,7 +1134,7 @@ const AndroidLarge1 = () => {
             src="/link--group2034svg.svg"
           />
         </div>
-        <div className={styles.rolloverMoney}>
+        <div className={styles.rolloverMoney} style={{fontSize:"14px"}}>
           © 2023 RollOver Money . All Rights Reserved.
         </div>
       </div>
