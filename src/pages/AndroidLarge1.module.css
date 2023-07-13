@@ -47,6 +47,7 @@
   flex-shrink: 0;
 }
 .getEarlyAccess {
+  padding: 10px;
   position: relative;
   letter-spacing: -0.02em;
 }
