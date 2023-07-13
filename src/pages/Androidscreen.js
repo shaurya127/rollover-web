@@ -944,12 +944,7 @@ const AndroidLarge1 = () => {
           >
             For Business
           </button>
-          <button
-            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""}`}
-            onClick={() => handleTabChange(2)}
-          >
-            For Investors
-          </button>
+          
         </div>
         <div className={styles.frameWrapper7}>
         {activeTab === 1 && (
@@ -971,7 +966,7 @@ const AndroidLarge1 = () => {
               <img
                 className={styles.treasureBro1Icon}
                 alt=""
-                src="/treasurebro-1.svg"
+                src="/Revenue-bro 1.svg"
               />
             </div>
           )}

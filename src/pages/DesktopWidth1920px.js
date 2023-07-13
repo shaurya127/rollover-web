@@ -929,12 +929,12 @@ const DesktopWidth1920px = () => {
           >
             For Business
           </button>
-          <button
+          {/* <button
             className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""}`}
             onClick={() => handleTabChange(2)}
           >
             For Investors
-          </button>
+          </button> */}
         </div>
 
 
@@ -958,7 +958,7 @@ const DesktopWidth1920px = () => {
               <img
                 className={styles.treasureBro1Icon}
                 alt=""
-                src="/treasurebro-1.svg"
+                src="/Revenue-bro 1.svg"
               />
             </div>
           )}

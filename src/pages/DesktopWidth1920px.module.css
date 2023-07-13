@@ -23,12 +23,13 @@
 }
 .thunderAnimationIcon {
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   overflow: hidden;
   flex-shrink: 0;
 }
 .getEarlyAccess {
+  cursor: pointer;
   position: relative;
   letter-spacing: -0.02em;
 }
@@ -68,7 +69,7 @@
 }
 .section1 {
   top: 80px;
-  left: 0;
+  left: -100px;
   background-color: var(--color-whitesmoke-100);
   width: 1920px;
   height: 660px;
@@ -1546,7 +1547,7 @@
 .frameParent43 {
   position: absolute;
   top: 169px;
-  left: calc(38% - 147.5px);
+  left: calc(41% - 147.5px);
   /* background-color: rgba(138, 207, 245, 0.2); */
   padding: var(--padding-9xs);
   font-size: var(--font-size-base);
@@ -1638,6 +1639,7 @@
   height: 876px;
 }
 .pleaseFillThe {
+  cursor: pointer;
   position: relative;
 }
 .pleaseFillTheFormOurReprWrapper,
@@ -1657,6 +1659,7 @@
   gap: 10px;
 }
 .enterYourName {
+  cursor: pointer;
   position: relative;
   font-weight: 500;
 }
@@ -1892,6 +1895,7 @@
   color: var(--color-white);
 }
 .rolloverMoneyLogo1 {
+  left: -100px;
   position: relative;
   width: 162px;
   height: 50px;
