@@ -41,12 +41,13 @@
 }
 .thunderAnimationIcon {
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   overflow: hidden;
   flex-shrink: 0;
 }
 .getEarlyAccess {
+  margin-right: 10px;
   padding: 10px;
   position: relative;
   letter-spacing: -0.02em;
@@ -1568,7 +1569,7 @@
 .ourSolution {
   position: absolute;
   top: 28px;
-  left: calc(50% - 67px);
+  left: calc(55% - 67px);
   letter-spacing: -0.02em;
   text-align: center;
 }
@@ -1594,7 +1595,7 @@
 .frameParent43 {
   position: absolute;
   top: 80px;
-  left: calc(50% - 137px);
+  left: calc(72% - 137px);
   background-color: rgba(138, 207, 245, 0.2);
   padding: 4px;
   font-size: var(--font-size-sm);

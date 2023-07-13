@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./AndroidLarge1.module.css";
 const AndroidLarge1 = () => {
-
   const [activeTab, setActiveTab] = useState(1);
 
   const handleTabChange = (tabNumber) => {
@@ -939,15 +938,16 @@ const AndroidLarge1 = () => {
         <b className={styles.ourSolution}>Our Solution</b>
         <div className={styles.frameParent43}>
           <button
-            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""}`}
+            className={`${styles.tab} ${
+              activeTab === 1 ? styles.activeTab : ""
+            }`}
             onClick={() => handleTabChange(1)}
           >
             For Business
           </button>
-          
         </div>
         <div className={styles.frameWrapper7}>
-        {activeTab === 1 && (
+          {activeTab === 1 && (
             <div className={styles.workingCapitalSolutionsForParent}>
               <b
                 className={styles.workingCapitalSolutions}
@@ -961,7 +961,6 @@ const AndroidLarge1 = () => {
                 <div className={styles.givingAccessTo}>
                   Giving access to working capital within 24-48 hours
                 </div>
-
               </div>
               <img
                 className={styles.treasureBro1Icon}
@@ -977,14 +976,12 @@ const AndroidLarge1 = () => {
               >{` Investors can earn as much as 15% extra on their invested
               capital`}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-
                 <div className={styles.givingAccessTo}>
                   RollOver Money directly integrates your ERP system to enable
                   quick working capital loan applications through invoice
                   discounting in less than 10 minutes Giving access to working
                   capital within 24-48 hours
                 </div>
-
               </div>
               <img
                 className={styles.treasureBro1Icon}
@@ -992,30 +989,40 @@ const AndroidLarge1 = () => {
                 src="/Revenue-bro 1.svg"
               />
             </div>
-
           )}
         </div>
-       
       </div>
       <div className={styles.frameParent44}>
         <div className={styles.frameParent45}>
-        <div className={styles.frameParent471}>
-              <div className={styles.enterYourNameWrapper}>
-                <input className={styles.enterYourNameInput} placeholder="Enter your name" />
-              </div>
-              <div className={styles.enterYourNameWrapper}>
-                <input className={styles.enterYourNameInput} placeholder="Email address" />
-              </div>
-              <div className={styles.enterYourNameWrapper}>
-                <input className={styles.enterYourNameInput} placeholder="Phone number" />
-              </div>
-              <div className={styles.writeYourQueryWrapper}>
-                <textarea className={styles.enterYourQueryInput} placeholder="Write your query..." />
-              </div>
+          <div className={styles.frameParent471}>
+            <div className={styles.enterYourNameWrapper}>
+              <input
+                className={styles.enterYourNameInput}
+                placeholder="Enter your name"
+              />
             </div>
-            <div className={styles.button}>
-              <b className={styles.submit}>Submit</b>
+            <div className={styles.enterYourNameWrapper}>
+              <input
+                className={styles.enterYourNameInput}
+                placeholder="Email address"
+              />
             </div>
+            <div className={styles.enterYourNameWrapper}>
+              <input
+                className={styles.enterYourNameInput}
+                placeholder="Phone number"
+              />
+            </div>
+            <div className={styles.writeYourQueryWrapper}>
+              <textarea
+                className={styles.enterYourQueryInput}
+                placeholder="Write your query..."
+              />
+            </div>
+          </div>
+          <div className={styles.button}>
+            <b className={styles.submit}>Submit</b>
+          </div>
         </div>
         <div className={styles.wantToKnowMoreAboutUsParent}>
           <b className={styles.wantToKnow}>Want To Know More About Us?</b>
@@ -1077,7 +1084,12 @@ const AndroidLarge1 = () => {
                     alt=""
                     src="/mailsvg.svg"
                   />
-                  <div className={styles.itemLink4} style={{marginTop:"10px"}}>hey@rollovermoney.in</div>
+                  <div
+                    className={styles.itemLink4}
+                    style={{ marginTop: "10px" }}
+                  >
+                    hey@rollovermoney.in
+                  </div>
                 </div>
                 <div className={styles.linkLocationsvgParent}>
                   <img
@@ -1088,7 +1100,7 @@ const AndroidLarge1 = () => {
                   <div className={styles.itemLink5}> New Delhi</div>
                 </div>
                 <div className={styles.linkLocationsvgParentphone}>
-                <img
+                  <img
                     className={styles.linkLocationsvg}
                     alt=""
                     src="/number.svg.svg"
@@ -1108,28 +1120,40 @@ const AndroidLarge1 = () => {
           <div className={styles.separator} />
         </div>
         <div className={styles.linkGroup2036svgParent}>
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2036svg.svg"
-          />
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2035svg.svg"
-          />
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2033svg.svg"
-          />
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2034svg.svg"
-          />
+          <a
+            href="https://www.facebook.com/rollovermoney/"
+            target="_blank"
+          >
+            <img
+              className={styles.linkGroup2036svg}
+              alt=""
+              src="/link--group2033svg.svg"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/rollover-money/"
+            target="_blank"
+          >
+            <img
+              className={styles.linkGroup2036svg}
+              alt=""
+              src="/link--group2036svg.svg"
+            />
+          </a>
+
+          <a
+            href="https://instagram.com/rollovermoney.in?igshid=OGY3MTU3OGY1Mw=="
+            target="_blank"
+          >
+            <img
+              className={styles.linkGroup2036svg}
+              alt=""
+              src="/link--group2035svg.svg"
+            />
+          </a>
         </div>
-        <div className={styles.rolloverMoney} style={{fontSize:"14px"}}>
+        <div className={styles.rolloverMoney} style={{ fontSize: "14px" }}>
           © 2023 RollOver Money . All Rights Reserved.
         </div>
       </div>

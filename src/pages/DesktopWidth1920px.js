@@ -8,6 +8,11 @@ const DesktopWidth1920px = () => {
     setActiveTab(tabNumber);
   };
 
+  const scrollToContactUs = () => {
+    const contactUsSection = document.getElementById("contactus");
+    contactUsSection.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className={styles.desktopWidth1920px}>
       <div className={styles.section1}>
@@ -24,7 +29,7 @@ const DesktopWidth1920px = () => {
               </div>
             </div>
           </div>
-          <div className={styles.earlyAccessButtonframe3}>
+          <div className={styles.earlyAccessButtonframe3} onClick={scrollToContactUs}>
             <img
               className={styles.thunderAnimationIcon}
               alt=""
@@ -989,7 +994,9 @@ const DesktopWidth1920px = () => {
         </div>
 
       </div>
-      <div className={styles.frameParent44}>
+
+     
+      <div className={styles.frameParent44} id="contactus">
         <div className={styles.wantToKnowMoreAboutUsParent}>
           <b className={styles.getEarlyAccess}>Want To Know More About Us?</b>
           <div className={styles.pleaseFillTheFormOurReprWrapper}>
@@ -1090,26 +1097,38 @@ const DesktopWidth1920px = () => {
           stronger economy.
         </div>
         <div className={styles.linkGroup2036svgParent}>
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2036svg.svg"
-          />
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2035svg.svg"
-          />
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2033svg.svg"
-          />
-          <img
-            className={styles.linkGroup2036svg}
-            alt=""
-            src="/link--group2034svg.svg"
-          />
+        <a
+            href="https://www.facebook.com/rollovermoney/"
+            target="_blank"
+          >
+            <img
+              className={styles.linkGroup2036svg}
+              alt=""
+              src="/link--group2033svg.svg"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/rollover-money/"
+            target="_blank"
+          >
+            <img
+              className={styles.linkGroup2036svg}
+              alt=""
+              src="/link--group2036svg.svg"
+            />
+          </a>
+
+          <a
+            href="https://instagram.com/rollovermoney.in?igshid=OGY3MTU3OGY1Mw=="
+            target="_blank"
+          >
+            <img
+              className={styles.linkGroup2036svg}
+              alt=""
+              src="/link--group2035svg.svg"
+            />
+          </a>
         </div>
       </div>
       <div className={styles.menuBar}>
