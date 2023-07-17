@@ -12,13 +12,11 @@ const AndroidLarge1 = () => {
         <div className={styles.frameGroup}>
           <div className={styles.invoicingBenefitsThatAutomaParent}>
             <b className={styles.invoicingBenefitsThat}>
-              Invoicing Benefits that Automate Your Business Processes
+            Working capital financing up to 50 Lakh within 3 days
             </b>
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.withRolloverMoney}>
-                With Rollover Money, invoicing becomes a breeze! Experience the
-                power of automating your invoice generation and delivery, saving
-                time and effort so you can focus on your core business.
+              With rollover money get your business running with collateral free business loans.
               </div>
             </div>
           </div>
@@ -892,11 +890,7 @@ const AndroidLarge1 = () => {
           Revolutionize Your Business Using Analytics Dashboard
         </b>
         <div className={styles.welcomeToRollovermoney}>
-          Welcome to RolloverMoney, your one-stop solution for intelligent
-          financial management. We understand the importance of maximizing your
-          hard-earned money and making it work for you. With RolloverMoney, you
-          can take control of your finances, plan for the future, and secure
-          your financial well-being.
+        Grow your business with easy access to working capital financing in a click and fund disbursement within 3 working days
         </div>
         <div className={styles.whyChooseOurDashboardParent}>
           <div className={styles.invoiceDiscounting}>
@@ -904,7 +898,7 @@ const AndroidLarge1 = () => {
           </div>
           <div className={styles.frameParent42}>
             <div className={styles.invoicingMadeSimpleParent}>
-              <div className={styles.getEarlyAccess}>Invoicing made simple</div>
+              <div className={styles.getEarlyAccess}>Interest rates starting at 1%</div>
               <img
                 className={styles.vuesaxlineararrowDownIcon}
                 alt=""
@@ -913,7 +907,8 @@ const AndroidLarge1 = () => {
             </div>
             <div className={styles.invoicingMadeSimpleParent}>
               <div className={styles.getEarlyAccess}>
-                Sync with your existing ERP
+              Zero documentation
+
               </div>
               <img
                 className={styles.vuesaxlineararrowDownIcon}
@@ -923,7 +918,18 @@ const AndroidLarge1 = () => {
             </div>
             <div className={styles.invoicingMadeSimpleParent}>
               <div className={styles.getEarlyAccess}>
-                Analytics that is easy to understand
+              No collateral
+
+              </div>
+              <img
+                className={styles.vuesaxlineararrowDownIcon}
+                alt=""
+                src="/vuesaxlineararrowdown.svg"
+              />
+            </div>
+            <div className={styles.invoicingMadeSimpleParent}>
+              <div className={styles.getEarlyAccess}>
+              Upto 40 months period
               </div>
               <img
                 className={styles.vuesaxlineararrowDownIcon}

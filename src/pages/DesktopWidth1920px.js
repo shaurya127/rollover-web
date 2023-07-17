@@ -19,17 +19,19 @@ const DesktopWidth1920px = () => {
         <div className={styles.frameParent}>
           <div className={styles.invoicingBenefitsThatAutomaParent}>
             <b className={styles.invoicingBenefitsThat}>
-              Invoicing Benefits that Automate Your Business Processes
+              Working capital financing up to 50 Lakh within 3 days
             </b>
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.withRolloverMoney}>
-                With Rollover Money, invoicing becomes a breeze! Experience the
-                power of automating your invoice generation and delivery, saving
-                time and effort so you can focus on your core business.
+                With rollover money get your business running with collateral
+                free business loans.
               </div>
             </div>
           </div>
-          <div className={styles.earlyAccessButtonframe3} onClick={scrollToContactUs}>
+          <div
+            className={styles.earlyAccessButtonframe3}
+            onClick={scrollToContactUs}
+          >
             <img
               className={styles.thunderAnimationIcon}
               alt=""
@@ -879,11 +881,8 @@ const DesktopWidth1920px = () => {
               Revolutionize Your Business Using Analytics Dashboard
             </b>
             <div className={styles.welcomeToRollovermoney}>
-              Welcome to RolloverMoney, your one-stop solution for intelligent
-              financial management. We understand the importance of maximizing
-              your hard-earned money and making it work for you. With
-              RolloverMoney, you can take control of your finances, plan for the
-              future, and secure your financial well-being.
+              Grow your business with easy access to working capital financing
+              in a click and fund disbursement within 3 working days
             </div>
           </div>
           <div className={styles.whyChooseOurDashboardParent}>
@@ -893,7 +892,7 @@ const DesktopWidth1920px = () => {
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.invoicingMadeSimpleParent}>
                 <div className={styles.getEarlyAccess}>
-                  Invoicing made simple
+                  Interest rates starting at 1%
                 </div>
                 <img
                   className={styles.vuesaxlineararrowDownIcon}
@@ -902,9 +901,15 @@ const DesktopWidth1920px = () => {
                 />
               </div>
               <div className={styles.invoicingMadeSimpleParent}>
-                <div className={styles.getEarlyAccess}>
-                  Sync with your existing ERP
-                </div>
+                <div className={styles.getEarlyAccess}>Zero documentation</div>
+                <img
+                  className={styles.vuesaxlineararrowDownIcon}
+                  alt=""
+                  src="/vuesaxlineararrowdown.svg"
+                />
+              </div>
+              <div className={styles.invoicingMadeSimpleParent}>
+                <div className={styles.getEarlyAccess}>No collateral</div>
                 <img
                   className={styles.vuesaxlineararrowDownIcon}
                   alt=""
@@ -913,7 +918,7 @@ const DesktopWidth1920px = () => {
               </div>
               <div className={styles.invoicingMadeSimpleParent}>
                 <div className={styles.getEarlyAccess}>
-                  Analytics that is easy to understand
+                  Upto 40 months period
                 </div>
                 <img
                   className={styles.vuesaxlineararrowDownIcon}
@@ -929,7 +934,9 @@ const DesktopWidth1920px = () => {
         <b className={styles.ourSolution1}> Our Solution</b>
         <div className={styles.frameParent43}>
           <button
-            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""}`}
+            className={`${styles.tab} ${
+              activeTab === 1 ? styles.activeTab : ""
+            }`}
             onClick={() => handleTabChange(1)}
           >
             For Business
@@ -941,7 +948,6 @@ const DesktopWidth1920px = () => {
             For Investors
           </button> */}
         </div>
-
 
         <div className={styles.ourSolutionInner}>
           {activeTab === 1 && (
@@ -958,7 +964,6 @@ const DesktopWidth1920px = () => {
                 <div className={styles.givingAccessTo}>
                   Giving access to working capital within 24-48 hours
                 </div>
-
               </div>
               <img
                 className={styles.treasureBro1Icon}
@@ -974,14 +979,12 @@ const DesktopWidth1920px = () => {
               >{` Investors can earn as much as 15% extra on their invested
               capital`}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-
                 <div className={styles.givingAccessTo}>
                   RollOver Money directly integrates your ERP system to enable
                   quick working capital loan applications through invoice
                   discounting in less than 10 minutes Giving access to working
                   capital within 24-48 hours
                 </div>
-
               </div>
               <img
                 className={styles.treasureBro1Icon}
@@ -989,19 +992,17 @@ const DesktopWidth1920px = () => {
                 src="/Revenue-bro 1.svg"
               />
             </div>
-
           )}
         </div>
-
       </div>
 
-     
       <div className={styles.frameParent44} id="contactus">
         <div className={styles.wantToKnowMoreAboutUsParent}>
           <b className={styles.getEarlyAccess}>Want To Know More About Us?</b>
           <div className={styles.pleaseFillTheFormOurReprWrapper}>
             <div className={styles.pleaseFillThe}>
-              Please fill the form, our Representative will reach out to you within 24 hours
+              Please fill the form, our Representative will reach out to you
+              within 24 hours
             </div>
           </div>
         </div>
@@ -1009,16 +1010,28 @@ const DesktopWidth1920px = () => {
           <div className={styles.frameParent46}>
             <div className={styles.frameParent47}>
               <div className={styles.enterYourNameWrapper}>
-                <input className={styles.enterYourNameInput} placeholder="Enter your name" />
+                <input
+                  className={styles.enterYourNameInput}
+                  placeholder="Enter your name"
+                />
               </div>
               <div className={styles.enterYourNameWrapper}>
-                <input className={styles.enterYourNameInput} placeholder="Email address" />
+                <input
+                  className={styles.enterYourNameInput}
+                  placeholder="Email address"
+                />
               </div>
               <div className={styles.enterYourNameWrapper}>
-                <input className={styles.enterYourNameInput} placeholder="Phone number" />
+                <input
+                  className={styles.enterYourNameInput}
+                  placeholder="Phone number"
+                />
               </div>
               <div className={styles.writeYourQueryWrapper}>
-                <textarea className={styles.enterYourQueryInput} placeholder="Write your query..." />
+                <textarea
+                  className={styles.enterYourQueryInput}
+                  placeholder="Write your query..."
+                />
               </div>
             </div>
             <div className={styles.button}>
@@ -1026,7 +1039,11 @@ const DesktopWidth1920px = () => {
             </div>
           </div>
           <div className={styles.salesRunTheBusinessWrapper}>
-            <img className={styles.callCenterBro1} alt="" src="/call-centerbro-1.svg" />
+            <img
+              className={styles.callCenterBro1}
+              alt=""
+              src="/call-centerbro-1.svg"
+            />
           </div>
         </div>
       </div>
@@ -1051,7 +1068,6 @@ const DesktopWidth1920px = () => {
               <div className={styles.itemInvoicing}>Contact Us</div>
               <div className={styles.itemInvoicing}>About</div>
             </div>
-
           </div>
           <div className={styles.servicesParent}>
             <div className={styles.services}>Legal</div>
@@ -1097,10 +1113,7 @@ const DesktopWidth1920px = () => {
           stronger economy.
         </div>
         <div className={styles.linkGroup2036svgParent}>
-        <a
-            href="https://www.facebook.com/rollovermoney/"
-            target="_blank"
-          >
+          <a href="https://www.facebook.com/rollovermoney/" target="_blank">
             <img
               className={styles.linkGroup2036svg}
               alt=""
@@ -1138,8 +1151,8 @@ const DesktopWidth1920px = () => {
           src="/rollover-money-logo1.svg"
         />
         <div className={styles.servicesGroup}>
-          <div className={styles.enterYourName}>Services</div>
-          <div className={styles.enterYourName}>About</div>
+          {/* <div className={styles.enterYourName}>Services</div> */}
+          <button className={styles.applybutton}>Apply Now</button>
           <div className={styles.contactUsWrapper}>
             <b className={styles.pleaseFillThe}>Contact Us</b>
           </div>
