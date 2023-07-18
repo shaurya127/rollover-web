@@ -1112,7 +1112,7 @@ const DesktopWidth1920px = () => {
           stronger economy.
         </div>
         <div className={styles.linkGroup2036svgParent}>
-          <a href="https://www.facebook.com/rollovermoney/" target="_blank">
+          <a href="https://www.linkedin.com/company/rollover-money/" target="_blank">
             <img
               className={styles.linkGroup2036svg}
               alt=""
@@ -1121,7 +1121,7 @@ const DesktopWidth1920px = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/company/rollover-money/"
+            href="https://www.facebook.com/rollovermoney/"
             target="_blank"
           >
             <img
