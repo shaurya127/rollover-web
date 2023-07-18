@@ -71,7 +71,7 @@ const DesktopWidth1920px = () => {
             <div className={styles.invoiceDiscountingParent}>
               <div className={styles.invoiceDiscounting}>Competitive Rates</div>
               <div className={styles.secureFinancingBy}>
-                Access working capital at lower rates than traditional financing
+                Access Business Loan at lower rates than traditional financing
                 options.
               </div>
             </div>
@@ -881,13 +881,13 @@ const DesktopWidth1920px = () => {
               Revolutionize Your Business Using Analytics Dashboard
             </b>
             <div className={styles.welcomeToRollovermoney}>
-              Grow your business with easy access to working capital financing
+              Grow your business with easy access to Business Loan financing
               in a click and fund disbursement within 3 working days
             </div>
           </div>
           <div className={styles.whyChooseOurDashboardParent}>
             <div className={styles.invoiceDiscounting}>
-              Why choose our Dashboard?
+              Why choose us?
             </div>
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.invoicingMadeSimpleParent}>
@@ -953,15 +953,15 @@ const DesktopWidth1920px = () => {
             <div className={styles.workingCapitalSolutionsForParent}>
               <b
                 className={styles.workingCapitalSolutions}
-              >{`Working Capital Solutions For Micro Small & Medium Enterprises`}</b>
+              >{`Business Loan Solutions For Micro Small & Medium Enterprises`}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
                 <div className={styles.rolloverMoneyDirectly}>
                   RollOver Money directly integrates your ERP system to enable
-                  quick working capital loan applications through invoice
+                  quick Business Loan loan applications through invoice
                   discounting in less than 10 minutes
                 </div>
                 <div className={styles.givingAccessTo}>
-                  Giving access to working capital within 24-48 hours
+                  Giving access to Business Loan within 24-48 hours
                 </div>
               </div>
               <img
@@ -980,7 +980,7 @@ const DesktopWidth1920px = () => {
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
                 <div className={styles.givingAccessTo}>
                   RollOver Money directly integrates your ERP system to enable
-                  quick working capital loan applications through invoice
+                  quick Business Loan loan applications through invoice
                   discounting in less than 10 minutes Giving access to working
                   capital within 24-48 hours
                 </div>
@@ -1107,7 +1107,7 @@ const DesktopWidth1920px = () => {
         </div>
         <div className={styles.separator} />
         <div className={styles.ourMissionIs}>
-          Our mission is to provide inclusive and accessible working capital
+          Our mission is to provide inclusive and accessible Business Loan
           solutions to India's MSMEs. Supporting small businesses and building a
           stronger economy.
         </div>
