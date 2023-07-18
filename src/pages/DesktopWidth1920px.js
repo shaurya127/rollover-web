@@ -19,7 +19,7 @@ const DesktopWidth1920px = () => {
         <div className={styles.frameParent}>
           <div className={styles.invoicingBenefitsThatAutomaParent}>
             <b className={styles.invoicingBenefitsThat}>
-              Working capital financing up to 50 Lakh within 3 days
+              Business Loan financing up to 50 Lakh within 3 days
             </b>
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.withRolloverMoney}>
@@ -934,9 +934,8 @@ const DesktopWidth1920px = () => {
         <b className={styles.ourSolution1}> Our Solution</b>
         <div className={styles.frameParent43}>
           <button
-            className={`${styles.tab} ${
-              activeTab === 1 ? styles.activeTab : ""
-            }`}
+            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""
+              }`}
             onClick={() => handleTabChange(1)}
           >
             For Business

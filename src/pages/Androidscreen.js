@@ -12,11 +12,11 @@ const AndroidLarge1 = () => {
         <div className={styles.frameGroup}>
           <div className={styles.invoicingBenefitsThatAutomaParent}>
             <b className={styles.invoicingBenefitsThat}>
-            Working capital financing up to 50 Lakh within 3 days
+              Business Loan financing up to 50 Lakh within 3 days
             </b>
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.withRolloverMoney}>
-              With rollover money get your business running with collateral free business loans.
+                With rollover money get your business running with collateral free business loans.
               </div>
             </div>
           </div>
@@ -890,7 +890,7 @@ const AndroidLarge1 = () => {
           Revolutionize Your Business Using Analytics Dashboard
         </b>
         <div className={styles.welcomeToRollovermoney}>
-        Grow your business with easy access to working capital financing in a click and fund disbursement within 3 working days
+          Grow your business with easy access to working capital financing in a click and fund disbursement within 3 working days
         </div>
         <div className={styles.whyChooseOurDashboardParent}>
           <div className={styles.invoiceDiscounting}>
@@ -907,7 +907,7 @@ const AndroidLarge1 = () => {
             </div>
             <div className={styles.invoicingMadeSimpleParent}>
               <div className={styles.getEarlyAccess}>
-              Zero documentation
+                Zero documentation
 
               </div>
               <img
@@ -918,7 +918,7 @@ const AndroidLarge1 = () => {
             </div>
             <div className={styles.invoicingMadeSimpleParent}>
               <div className={styles.getEarlyAccess}>
-              No collateral
+                No collateral
 
               </div>
               <img
@@ -929,7 +929,7 @@ const AndroidLarge1 = () => {
             </div>
             <div className={styles.invoicingMadeSimpleParent}>
               <div className={styles.getEarlyAccess}>
-              Upto 40 months period
+                Upto 40 months period
               </div>
               <img
                 className={styles.vuesaxlineararrowDownIcon}
@@ -944,9 +944,8 @@ const AndroidLarge1 = () => {
         <b className={styles.ourSolution}>Our Solution</b>
         <div className={styles.frameParent43}>
           <button
-            className={`${styles.tab} ${
-              activeTab === 1 ? styles.activeTab : ""
-            }`}
+            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""
+              }`}
             onClick={() => handleTabChange(1)}
           >
             For Business
