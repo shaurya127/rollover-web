@@ -987,7 +987,9 @@ const AndroidLarge1 = () => {
                   discounting in less than 10 minutes Giving access to working
                   capital within 24-48 hours
                 </div>
+
               </div>
+
               <img
                 className={styles.treasureBro1Icon}
                 alt=""
@@ -995,8 +997,12 @@ const AndroidLarge1 = () => {
               />
             </div>
           )}
+
+          <div className={styles.applybutton}>Apply Now</div>
         </div>
+
       </div>
+
       <div className={styles.frameParent44}>
         <div className={styles.frameParent45}>
           <div className={styles.frameParent471}>
@@ -1138,7 +1144,7 @@ const AndroidLarge1 = () => {
 
           <a
             href="https://www.facebook.com/rollovermoney/"
-           
+
             target="_blank"
           >
             <img

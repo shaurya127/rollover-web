@@ -2076,3 +2076,52 @@
 .enterYourQueryInput {
   height: 60px;
 }
+
+.applybutton {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff6f00;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.applybutton:hover {
+  background-color: #e65100;
+  cursor: pointer;
+}
+
+.applybutton:active {
+  background-color: #c62828;
+}
+
+.applybutton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 111, 0, 0.4);
+}
+
+.applybutton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.applybutton:hover::before {
+  opacity: 1;
+}

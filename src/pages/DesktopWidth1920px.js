@@ -13,6 +13,40 @@ const DesktopWidth1920px = () => {
     contactUsSection.scrollIntoView({ behavior: "smooth" });
   };
 
+
+
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phoneNumber: '',
+    query: ''
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Convert form data to a text string
+    const textData = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone Number: ${formData.phoneNumber}\nQuery: ${formData.query}`;
+
+    // Create a new Blob object with the text data
+    const blob = new Blob([textData], { type: 'text/plain' });
+
+    // Save the blob as a text file
+    const downloadLink = document.createElement('a');
+    downloadLink.href = URL.createObjectURL(blob);
+    downloadLink.download = 'form_data.txt';
+    downloadLink.click();
+  };
+
   return (
     <div className={styles.desktopWidth1920px}>
       <div className={styles.section1}>
