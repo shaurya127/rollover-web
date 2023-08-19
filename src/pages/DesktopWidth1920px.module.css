@@ -1536,7 +1536,7 @@
 .ourSolution1 {
   position: absolute;
   top: 85px;
-  left: 600px;
+  left: 650px;
   letter-spacing: -0.02em;
 }
 .forBusinessWrapper {
@@ -1560,13 +1560,14 @@
 .frameParent43 {
   position: absolute;
   top: 169px;
-  left: calc(41% - 147.5px);
+  left: calc(38% - 147.5px);
   /* background-color: rgba(138, 207, 245, 0.2); */
   padding: var(--padding-9xs);
   font-size: var(--font-size-base);
   color: var(--color-white);
 }
 .tab {
+  cursor: pointer;
   padding: 12px 28px;
   color: rgb(0, 0, 0);
   border-radius: 100px;
@@ -1910,6 +1911,10 @@
   font-size: var(--font-size-base);
   color: var(--color-white);
 }
+.comingSoonMessage {
+  display: block;
+  /* Your styles for the coming soon message */
+}
 .rolloverMoneyLogo1 {
   left: -100px;
   position: relative;
@@ -1971,6 +1976,10 @@
   opacity: 1;
 }
 
+.disabled {
+  pointer-events: none;
+  opacity: 0.5; /* or any desired opacity */
+}
 
 
 .contactUsWrapper {

@@ -13,21 +13,24 @@ const DesktopWidth1920px = () => {
     contactUsSection.scrollIntoView({ behavior: "smooth" });
   };
 
+  const [showMessage, setShowMessage] = useState(false);
 
-
+  const toggleMessage = () => {
+    setShowMessage(!showMessage);
+  };
 
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phoneNumber: '',
-    query: ''
+    name: "",
+    email: "",
+    phoneNumber: "",
+    query: "",
   });
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevFormData) => ({
       ...prevFormData,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -38,12 +41,12 @@ const DesktopWidth1920px = () => {
     const textData = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone Number: ${formData.phoneNumber}\nQuery: ${formData.query}`;
 
     // Create a new Blob object with the text data
-    const blob = new Blob([textData], { type: 'text/plain' });
+    const blob = new Blob([textData], { type: "text/plain" });
 
     // Save the blob as a text file
-    const downloadLink = document.createElement('a');
+    const downloadLink = document.createElement("a");
     downloadLink.href = URL.createObjectURL(blob);
-    downloadLink.download = 'form_data.txt';
+    downloadLink.download = "form_data.txt";
     downloadLink.click();
   };
 
@@ -915,14 +918,12 @@ const DesktopWidth1920px = () => {
               Revolutionize Your Business Using Analytics Dashboard
             </b>
             <div className={styles.welcomeToRollovermoney}>
-              Grow your business with easy access to Business Loan financing
-              in a click and fund disbursement within 3 working days
+              Grow your business with easy access to Business Loan financing in
+              a click and fund disbursement within 3 working days
             </div>
           </div>
           <div className={styles.whyChooseOurDashboardParent}>
-            <div className={styles.invoiceDiscounting}>
-              Why choose us?
-            </div>
+            <div className={styles.invoiceDiscounting}>Why choose us?</div>
             <div className={styles.withRolloverMoneyInvoicingWrapper}>
               <div className={styles.invoicingMadeSimpleParent}>
                 <div className={styles.getEarlyAccess}>
@@ -972,14 +973,15 @@ const DesktopWidth1920px = () => {
               }`}
             onClick={() => handleTabChange(1)}
           >
-            For Business
+            Business Term Loan
           </button>
-          {/* <button
-            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""}`}
+          <button
+            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""
+              }`}
             onClick={() => handleTabChange(2)}
           >
-            For Investors
-          </button> */}
+            Invoice discounting
+          </button>
         </div>
 
         <div className={styles.ourSolutionInner}>
@@ -989,12 +991,12 @@ const DesktopWidth1920px = () => {
                 className={styles.workingCapitalSolutions}
               >{`Business Loan Solutions For Micro Small & Medium Enterprises`}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-                <div className={styles.rolloverMoneyDirectly}>
+                <div className={styles.rolloverMoneyDirectly} style={{ fontSize: "18px" }}>
                   RollOver Money directly integrates your ERP system to enable
                   quick Business Loan loan applications through invoice
                   discounting in less than 10 minutes
                 </div>
-                <div className={styles.givingAccessTo}>
+                <div className={styles.givingAccessTo} style={{ fontSize: "18px" }}>
                   Giving access to Business Loan within 24-48 hours
                 </div>
               </div>
@@ -1009,20 +1011,22 @@ const DesktopWidth1920px = () => {
             <div className={styles.workingCapitalSolutionsForParent}>
               <b
                 className={styles.workingCapitalSolutions}
-              >{` Investors can earn as much as 15% extra on their invested
-              capital`}</b>
+              >{`Still have unpaid invoices that you need to pay to your vendors?
+              `}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-                <div className={styles.givingAccessTo}>
-                  RollOver Money directly integrates your ERP system to enable
-                  quick Business Loan loan applications through invoice
-                  discounting in less than 10 minutes Giving access to working
-                  capital within 24-48 hours
+                <div className={styles.rolloverMoneyDirectly} style={{ fontSize: "18px" }}>
+                  We have got you covered! Pay your vendors by getting your
+                  invoice discounted at net payment terms of 30/45/90 days with
+                  interest rates starting at 1.5%
                 </div>
+                {/* <div className={styles.givingAccessTo}>
+                  Giving access to Business Loan within 24-48 hours
+                </div> */}
               </div>
               <img
                 className={styles.treasureBro1Icon}
                 alt=""
-                src="/Revenue-bro 1.svg"
+                src="/Treasure-bro 1.svg"
               />
             </div>
           )}
@@ -1146,7 +1150,10 @@ const DesktopWidth1920px = () => {
           stronger economy.
         </div>
         <div className={styles.linkGroup2036svgParent}>
-          <a href="https://www.linkedin.com/company/rollover-money/" target="_blank">
+          <a
+            href="https://www.linkedin.com/company/rollover-money/"
+            target="_blank"
+          >
             <img
               className={styles.linkGroup2036svg}
               alt=""
@@ -1154,10 +1161,7 @@ const DesktopWidth1920px = () => {
             />
           </a>
 
-          <a
-            href="https://www.facebook.com/rollovermoney/"
-            target="_blank"
-          >
+          <a href="https://www.facebook.com/rollovermoney/" target="_blank">
             <img
               className={styles.linkGroup2036svg}
               alt=""
@@ -1184,8 +1188,11 @@ const DesktopWidth1920px = () => {
           src="/rollover-money-logo1.svg"
         />
         <div className={styles.servicesGroup}>
-          {/* <div className={styles.enterYourName}>Services</div> */}
-          <button className={styles.applybutton}>Apply Now</button>
+          <div className={`${styles.applybutton} ${styles.disabled}`} onClick={toggleMessage}>
+            Apply Now
+          </div>
+
+
           <div className={styles.contactUsWrapper}>
             <b className={styles.pleaseFillThe}>Contact Us</b>
           </div>

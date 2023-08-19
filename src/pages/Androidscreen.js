@@ -948,7 +948,14 @@ const AndroidLarge1 = () => {
               }`}
             onClick={() => handleTabChange(1)}
           >
-            For Business
+            Business Term Loan
+          </button>
+          <button
+            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""
+              }`}
+            onClick={() => handleTabChange(2)}
+          >
+            Invoice Discounting
           </button>
         </div>
         <div className={styles.frameWrapper7}>
@@ -978,14 +985,13 @@ const AndroidLarge1 = () => {
             <div className={styles.workingCapitalSolutionsForParent}>
               <b
                 className={styles.workingCapitalSolutions}
-              >{` Investors can earn as much as 15% extra on their invested
-              capital`}</b>
+              >{`Still have unpaid invoices that you need to pay to your vendors?
+              `}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
                 <div className={styles.givingAccessTo}>
-                  RollOver Money directly integrates your ERP system to enable
-                  quick Business Loan loan applications through invoice
-                  discounting in less than 10 minutes Giving access to working
-                  capital within 24-48 hours
+                  We have got you covered! Pay your vendors by getting your
+                  invoice discounted at net payment terms of 30/45/90 days with
+                  interest rates starting at 1.5%
                 </div>
 
               </div>
@@ -993,12 +999,14 @@ const AndroidLarge1 = () => {
               <img
                 className={styles.treasureBro1Icon}
                 alt=""
-                src="/Revenue-bro 1.svg"
+                src="/Treasure-bro 1.svg"
               />
             </div>
           )}
 
-          <div className={styles.applybutton}>Apply Now</div>
+          <div className={`${styles.applybutton} ${styles.disabled}`}>
+            Apply Now
+          </div>
         </div>
 
       </div>
