@@ -1093,11 +1093,11 @@ const DesktopWidth1920px = () => {
         />
         <div className={styles.frameParent48}>
           <div className={styles.servicesParent}>
-            <div className={styles.services}>Services</div>
+            {/* <div className={styles.services}>Services</div>
             <div className={styles.itemInvoicingToolParent}>
               <div className={styles.itemInvoicing}>Invoicing Tool</div>
               <div className={styles.itemInvoicing}>Analytics Dashboard</div>
-            </div>
+            </div> */}
           </div>
           <div className={styles.servicesParent}>
             <div className={styles.services}>Company</div>
