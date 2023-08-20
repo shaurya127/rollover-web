@@ -1005,7 +1005,7 @@ const AndroidLarge1 = () => {
           )}
 
           <div className={`${styles.applybutton} ${styles.disabled}`}>
-            Apply Now
+            Coming Soon
           </div>
         </div>
 
