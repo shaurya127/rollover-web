@@ -999,7 +999,7 @@ const AndroidLarge1 = () => {
               <img
                 className={styles.treasureBro1Icon}
                 alt=""
-                src="/Treasure-bro 1.svg"
+                src="/Invoice-bro 1.svg"
               />
             </div>
           )}
