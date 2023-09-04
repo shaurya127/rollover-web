@@ -969,18 +969,20 @@ const DesktopWidth1920px = () => {
         <b className={styles.ourSolution1}> Our Solution</b>
         <div className={styles.frameParent43}>
           <button
-            className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ""
-              }`}
+            className={`${styles.tab} ${
+              activeTab === 1 ? styles.activeTab : ""
+            }`}
             onClick={() => handleTabChange(1)}
           >
             Business Term Loan
           </button>
           <button
-            className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ""
-              }`}
+            className={`${styles.tab} ${
+              activeTab === 2 ? styles.activeTab : ""
+            }`}
             onClick={() => handleTabChange(2)}
           >
-            Invoice discounting
+            Buy Now Pay Later
           </button>
         </div>
 
@@ -991,14 +993,19 @@ const DesktopWidth1920px = () => {
                 className={styles.workingCapitalSolutions}
               >{`Business Loan Solutions For Micro Small & Medium Enterprises`}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-                <div className={styles.rolloverMoneyDirectly} style={{ fontSize: "18px" }}>
-                  RollOver Money directly integrates your ERP system to enable
-                  quick Business Loan loan applications through invoice
-                  discounting in less than 10 minutes
+                <div
+                  className={styles.rolloverMoneyDirectly}
+                  style={{ fontSize: "18px" }}
+                >
+                  Get term loan finance to expand your business or complete your
+                  orders on time! Starting @1%*
                 </div>
-                <div className={styles.givingAccessTo} style={{ fontSize: "18px" }}>
+                {/* <div
+                  className={styles.givingAccessTo}
+                  style={{ fontSize: "18px" }}
+                >
                   Giving access to Business Loan within 24-48 hours
-                </div>
+                </div> */}
               </div>
               <img
                 className={styles.treasureBro1Icon}
@@ -1014,10 +1021,13 @@ const DesktopWidth1920px = () => {
               >{`Still have unpaid invoices that you need to pay to your vendors?
               `}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
-                <div className={styles.rolloverMoneyDirectly} style={{ fontSize: "18px" }}>
-                  We have got you covered! Pay your vendors by getting your
-                  invoice discounted at net payment terms of 30/45/90 days with
-                  interest rates starting at 1.5%
+                <div
+                  className={styles.rolloverMoneyDirectly}
+                  style={{ fontSize: "18px" }}
+                >
+                  Get a 30/60/90-day extension on your payment cycle by paying
+                  your vendors on time and experience no-halt business using
+                  your unpaid invoices on your ERP.
                 </div>
                 {/* <div className={styles.givingAccessTo}>
                   Giving access to Business Loan within 24-48 hours
@@ -1188,10 +1198,12 @@ const DesktopWidth1920px = () => {
           src="/rollover-money-logo1.svg"
         />
         <div className={styles.servicesGroup}>
-          <div className={`${styles.applybutton} ${styles.disabled}`} onClick={toggleMessage}>
+          <div
+            className={`${styles.applybutton} ${styles.disabled}`}
+            onClick={toggleMessage}
+          >
             Apply Now
           </div>
-
 
           <div className={styles.contactUsWrapper}>
             <b className={styles.pleaseFillThe}>Contact Us</b>

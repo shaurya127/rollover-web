@@ -1003,7 +1003,6 @@ const AndroidLarge1 = () => {
               />
             </div>
           )}
-
           <div className={`${styles.applybutton} ${styles.disabled}`}>
             Coming Soon
           </div>
