@@ -998,7 +998,7 @@ const DesktopWidth1920px = () => {
                   style={{ fontSize: "18px" }}
                 >
                   Get term loan finance to expand your business or complete your
-                  orders on time! Starting @1%*
+                  orders on time! Starting @1%
                 </div>
                 {/* <div
                   className={styles.givingAccessTo}
@@ -1025,9 +1025,11 @@ const DesktopWidth1920px = () => {
                   className={styles.rolloverMoneyDirectly}
                   style={{ fontSize: "18px" }}
                 >
-                  Get a 30/60/90-day extension on your payment cycle by paying
-                  your vendors on time and experience no-halt business using
-                  your unpaid invoices on your ERP.
+                  Offer instant payments to your vendors and avail cash
+                  discounts. 
+                  <br></br>Get a 30/60/90-day extension on your payment
+                  cycle by paying your vendors on time and experience no-halt
+                  business using your unpaid invoices on your ERP.
                 </div>
                 {/* <div className={styles.givingAccessTo}>
                   Giving access to Business Loan within 24-48 hours
