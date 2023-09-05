@@ -955,7 +955,7 @@ const AndroidLarge1 = () => {
               }`}
             onClick={() => handleTabChange(2)}
           >
-            Invoice Discounting
+             Buy Now Pay Later
           </button>
         </div>
         <div className={styles.frameWrapper7}>
@@ -966,13 +966,12 @@ const AndroidLarge1 = () => {
               >{`Business Loan Solutions For Micro Small & Medium Enterprises`}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
                 <div className={styles.rolloverMoneyDirectly}>
-                  RollOver Money directly integrates your ERP system to enable
-                  quick Business Loan loan applications through invoice
-                  discounting in less than 10 minutes
+                Get term loan finance to expand your business or complete your
+                  orders on time! Starting @1%
                 </div>
-                <div className={styles.givingAccessTo}>
+                {/* <div className={styles.givingAccessTo}>
                   Giving access to Business Loan within 24-48 hours
-                </div>
+                </div> */}
               </div>
               <img
                 className={styles.treasureBro1Icon}
@@ -989,9 +988,11 @@ const AndroidLarge1 = () => {
               `}</b>
               <div className={styles.rolloverMoneyDirectlyIntegrParent}>
                 <div className={styles.givingAccessTo}>
-                  We have got you covered! Pay your vendors by getting your
-                  invoice discounted at net payment terms of 30/45/90 days with
-                  interest rates starting at 1.5%
+                Offer instant payments to your vendors and avail cash
+                  discounts. 
+                  <br></br>Get a 30/60/90-day extension on your payment
+                  cycle by paying your vendors on time and experience no-halt
+                  business using your unpaid invoices on your ERP.
                 </div>
 
               </div>
